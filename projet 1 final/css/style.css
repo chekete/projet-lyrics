@@ -1,0 +1,232 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif !important;
+	background-color:#ffeeff;
+}
+#barage{
+	width:100%;
+	border:1px solid white;
+	background-color:black;
+	position:relative;
+	top:10px;
+	position:fixed;
+	z-index:1;
+}
+#entete{
+	height:50px;
+	background-color:black;
+}
+#bare_recherche{
+	width:50%;
+	height:20px;	
+}
+#bouton_connection{
+	display:inline-block;
+	color:white;
+	float:right;
+	margin-right:50px;
+}
+#entete div{
+	/*height:50px;
+	background-color:black;
+	position:fixed;
+	z-index:1;
+	width:100%;*/
+}
+
+/*partie gauche de la page*/
+#left_page_menu{
+	display:inline-block;
+	width:220px;
+	margin-top:10px;
+	position:relative;
+	vertical-align:top;
+}
+#left_page_menu ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+#left_page_menu ul li a{
+	text-decoration:none;
+	display:block;
+	background-color:white;
+	width:200px;
+	margin-bottom:3px;
+	padding:7px;
+	text-align:center;
+	color:black;
+	border:1px solid black;
+	box-shadow: 7px 7px 5px #888888;
+}
+#left_page_menu ul li a:hover{
+	-ms-transform: matrix(0.999,0.1,-0.1,0.999,0,0); /* IE 9 */
+    -webkit-transform: matrix(0.999,0.1,-0.1,0.999,0,0); /* Chrome, Safari, Opera */
+	transform: matrix(0.999,0.1,-0.1,0.999,0,0);
+	background-color:black;
+	color:white;
+	font-size:1.2em;
+}
+
+/*milieu de la page*/
+#middle_page{
+	display:inline-block;
+	width:850px;
+	margin-top:30px;
+	position:relative;
+	vertical-align:top;
+}
+#middle_page_egain{
+	padding:20px;
+	padding-top:90px;
+	background-image:url('../images/Snoop Dogg ft Wiz Khalifa.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 400px;
+}
+/*milieu de la page lyrics*/
+#page_lyrics{
+	padding:10px;
+	background-color:white;
+}
+#text_lyrics{
+	width:50%;
+	display:inline-block;
+	vertical-align:top;
+	background-color:black;
+	padding:7px;
+	border-radius:2px;
+	color:white;
+	box-shadow: 7px 7px 5px #888888;
+	margin-right:50px;
+}
+/*traduction du lyrics cacher par defaut*/
+#traduction_text{
+	display:inline-block;
+}
+/*milieu de la page accueil*/
+#page_news{
+	text-align:center;
+	
+}
+#video_prince_none{
+	width:775px;
+	height:400px;
+}
+/*le nom de la chanson et du chanteur*/
+#music_name{
+	background-color:black;
+	color:white;
+	box-shadow: 4px 4px 3px #888888;
+}
+#chanteur_name{
+	color:black;
+	border:1px solid black;
+	box-shadow: 7px 7px 5px #888888;
+	border-radius:2px;
+}
+#chanteur_name:hover{
+	box-shadow:none;
+}
+/*milieu de la page d'inscription*/
+#page_inscription{
+	background-color:white;
+	box-shadow: 7px 7px 5px #888888;
+	padding:4px;
+}
+#page_inscription label{
+	width:40%;
+	float:left;
+	height:20px;
+}
+#page_inscription .inputType{
+	width:300px;
+	height:20px;
+	margin-bottom:9px;
+	font-size:1.2em;
+}
+#page_inscription #mot_inscription{
+	font-size:1.4em;
+	margin-bottom:15px;
+	padding:4px;
+	background-color:black;
+	color:white;
+}
+/*milieu de la page song individuel*/
+#page_song_indi{
+	background-color:white;
+	padding:10px;
+}
+.song_image{
+	width:200px;
+	height:230px;
+	display:inline-block;
+	margin-right:124px;
+}
+.position_song{
+	display:inline-block;
+	vertical-align:top;
+	width:450px;
+}
+.position_audio_name{
+	height:40px;
+	margin-bottom:3px;
+	box-shadow: 7px 7px 5px #888888;
+}
+.position_audio_name:hover{
+	box-shadow:none;
+	cursor:pointer;
+}
+/*insertion de lyrics dans la page*/
+#text_lyrics label{
+	float:left;
+	width:300px;
+}
+.submit_input{
+	margin-bottom:8px;
+}
+
+.recommandation{
+	font-size:1.4em;
+	color:white;
+}
+.image_img{
+	width:248px;
+	height:233px;
+	display:inline-block;
+	margin:auto;
+	background-color:white;
+	padding-top:4px;
+	margin:2px;
+	opacity:0.9;
+}
+.image_descript{
+	width:230px;
+	height:180px;
+	margin:auto;
+}
+.lien_big_img{
+	text-decoration:none;
+}
+
+/*partie droite de la page*/
+#right_page{
+	margin-left:38px;
+	display:inline-block;
+	width:220px;
+	background-color:white;
+	padding:10px;
+	position:fixed;
+	float:left;
+	box-shadow: 7px 7px 5px #888888;
+}
+.image_a_droite{
+	width:99.5%;
+	height:150px;
+	margin:auto;
+}
+.lien_autre_site{
+	width:30px;
+	height:30px;
+}
+
